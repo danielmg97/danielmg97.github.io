@@ -108,13 +108,14 @@ analytics:
 author:
   name             : "Daniel Gonçalves"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a MSc Student in Information Systems and Computer Engineering at IST. I'm an ambitious and driven person with interests in areas like Data Science, AI, Machine Learning, Search and Planning Algorithms and I'm also interested in Software Engineering specifically Formal Software Specification and Verification."
+  bio              : "I am a MSc student in Information Systems and Computer Engineering @ IST, University of Lisbon."
+  bio_1            : "I'm an ambitious and driven person with interests in areas like Data Science, AI, Machine Learning, Search and Planning Algorithms and I'm also interested in Software Engineering specifically Formal Software Specification and Verification."
   location         : "Lisbon,Portugal"
   email            : "dmgonca@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:dmgonca@gmail.com
+      #url: mailto:dmgonca@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -122,7 +123,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/daniel-gon%C3%A7alves-63496a11b/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
