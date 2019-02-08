@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Daniel Gonçalves"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/author.jpg"
   bio              : "I am a MSc student in Information Systems and Computer Engineering @ IST, University of Lisbon."
   bio_1            : "I'm an ambitious and driven person with interests in areas like Data Science, AI, Machine Learning, Search and Planning Algorithms and I'm also interested in Software Engineering specifically Formal Software Specification and Verification."
   location         : "Lisbon,Portugal"
@@ -128,9 +128,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/danielmg97"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/daniel.mgoncal"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/danielmgoncalves_/"
 
 # Site Footer
 footer:
