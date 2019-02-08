@@ -109,7 +109,7 @@ author:
   name             : "Daniel Gonçalves"
   avatar           : "/images/author.jpg"
   bio              : "I am a MSc student in Information Systems and Computer Engineering @ IST, University of Lisbon."
-  bio_1            : "I'm an ambitious and driven person with interests in areas like Data Science, AI, Machine Learning, Search and Planning Algorithms and I'm also interested in Software Engineering specifically Formal Software Specification and Verification."
+  bio            : "I'm an ambitious and driven person with interests in areas like Data Science, AI, Machine Learning, Search and Planning Algorithms and I'm also interested in Software Engineering specifically Formal Software Specification and Verification."
   location         : "Lisbon,Portugal"
   email            : "dmgonca@gmail.com"
   links:
