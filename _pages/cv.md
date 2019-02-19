@@ -6,6 +6,6 @@ header:
   image: "/images/ai.png"
 ---
 
-<canvas width ="100%"" height="100%"></canvas>
+<canvas></canvas>
 <script src="{{site.baseurl}}/assets/js/index.js">
 </script>
