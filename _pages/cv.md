@@ -7,6 +7,6 @@ header:
 ---
 
 
-<script src="js/index.js">
+<script>
 alert( 'Hello, world!' );
 </script>
