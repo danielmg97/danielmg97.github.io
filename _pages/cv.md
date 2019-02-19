@@ -8,4 +8,5 @@ header:
 
 
 <script src="js/index.js">
+alert( 'Hello, world!' );
 </script>
