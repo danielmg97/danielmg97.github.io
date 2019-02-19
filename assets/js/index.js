@@ -185,7 +185,7 @@ function drawStars(a){
 function drawPlanets(a){
   for (var i = 0; i <= a; ++i) {
     var bestLocation = sample(planets);
-    planets.push(new Circle(bestLocation[0],bestLocation[1], Math.random() * 5,'rgb(32, 66, 136)'));
+    planets.push(new Circle(bestLocation[0],bestLocation[1], Math.random() * 5,'rgb(169,169,169)'));
   }
 }
 
@@ -271,8 +271,8 @@ drawClouds(25);
 drawLand(15);
 
 //Sloppy code for two randomly generated shooting stars
-var shootingStar = new ShootingStar(10,10,8,8,2,'#2c62c2');
-var shootingStar2 = new ShootingStar(400,300,-8,8,2,'#2c62c2');
+var shootingStar = new ShootingStar(10,10,8,8,2,'#7f7f7f');
+var shootingStar2 = new ShootingStar(400,300,-8,8,2,'#7f7f7f');
 
 window.setInterval(resetShootingStar, 3000);
 window.setInterval(resetShootingStar2, 5000);
@@ -287,21 +287,15 @@ function resetShootingStar2() {
 function animate(){
   requestAnimationFrame(animate);
 
-  c.fillStyle = 'rgba(11, 21, 56,0.3)';
+  c.fillStyle = 'rgba( 255, 255, 255, 0.6 )';
   c.fillRect(0, 0, canvas.width, canvas.height);
   shootingStar.update();
   shootingStar2.update();
 
-  for (var i = 0; i < stars.length; i++){
-    Star(stars[i].x,stars[i].y,stars[i].spikes,stars[i].innerRadius,stars[i].outerRadius);
-  }
   for (var i = 0; i < planets.length; i++){
     Circle(planets[i].x,planets[i].y,planets[i].radius,planets[i].fillColor);
   }
-  var ring3 = new Circle(center.x,center.y, 245,'rgba(10, 23, 66, 0.5)');
-  var ring2 = new Circle(center.x,center.y, 215,'rgba(9, 30, 75, 0.5)');
-  var ring1 = new Circle(center.x,center.y, 175,'rgba(8, 34, 83, 0.5)');
-  var earthBorder = new Circle(center.x,center.y, 135,'rgb(12, 20, 56)');
+  var earthBorder = new Circle(center.x,center.y, 128,'rgb(12, 20, 56)');
   var earth = new Circle(center.x,center.y, earthWidth,'rgb(25, 118, 181)');
   for (var i = 1; i < land.length; i++){
     land[i].update();
@@ -309,7 +303,7 @@ function animate(){
   for (var i = 1; i < clouds.length; i++){
     clouds[i].update();
   }
-  var semi = new SemiCircle(center.x,center.y,earthWidth,'rgba(0, 0, 0, 0.4)');
+  var semi = new SemiCircle(center.x,center.y,earthWidth,'rgba(0, 0, 0, 0.2)');
 }
 
 animate();
