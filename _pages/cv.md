@@ -6,4 +6,4 @@ header:
   image: "/images/ai.png"
 ---
 
-<iframe src="https://drive.google.com/file/d/11sAStKVdzNKruL8TFuH-YGRJ5a522jGO/preview" scrolling="no" frameborder="0"></iframe>
+<iframe src="https://drive.google.com/file/d/11sAStKVdzNKruL8TFuH-YGRJ5a522jGO/preview#zoom=50" height="100%" width="100%"></iframe>
