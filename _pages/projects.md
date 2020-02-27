@@ -6,8 +6,6 @@ header:
   image: "/images/ai.png"
 ---
 
-# Projects
-
 * 2019/2020 <br> 
 **IPOscore** 
   * Clinical prognosis and risk prediction of postoperative complications in cancer patients using machine learning algorithms.
