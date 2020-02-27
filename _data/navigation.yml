@@ -1,9 +1,11 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
+  - title: "About Me"
+    url: /aboutme/
   - title: "Education"
     url: /education/
+  - title: "Projects & Publications"
+    url: /projects&pubs/
   #- title: "CV"
   #  url: /cv/
   # - title: "About"

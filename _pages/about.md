@@ -1,6 +1,6 @@
 ---
-title: "About"
-permalink: /about/
+title: "About Me"
+permalink: /aboutme/
 author_profile: false
 header:
   image: "/images/ai.png"
