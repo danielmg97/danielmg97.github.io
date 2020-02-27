@@ -1,10 +1,12 @@
 ---
 author_profile: false
-
+title: ""
 permalink: /projects&pubs/
 header:
   image: "/images/ai.png"
 ---
+
+# Projects
 
 * 2019/2020 <br> 
 **IPOscore** 
